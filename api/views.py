@@ -5,8 +5,8 @@ import pytz
 
 def public_api(request):
     response_data = {
-        "email": "olakunle.adebayo@gmail.com",
+        "email": "olakunle.adebayo77@gmail.com",
         "current_datetime": datetime.utcnow().replace(tzinfo=pytz.utc).isoformat(),
-        "github_url": "https://github.com/LakunleAdebayo/your-repo"
+        "github_url": "https://github.com/LakunleAdebayo/Retrieve-Public-API"
     }
     return JsonResponse(response_data)
