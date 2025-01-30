@@ -1,1 +1,1 @@
-web: gunicorn retrieveapi.wsgi:application
+web: gunicorn retrieveapi.wsgi:application --chdir retrieveapi
