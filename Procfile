@@ -1,1 +1,1 @@
-web: gunicorn retrieveapi.wsgi:application --chdir retrieveapi
+web: gunicorn retrieveapi.wsgi:application --bind 0.0.0.0:$PORT
