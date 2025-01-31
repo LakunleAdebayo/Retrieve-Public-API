@@ -3,6 +3,9 @@ from django.http import JsonResponse
 from datetime import datetime
 import pytz
 
+def home(request):
+    return JsonResponse({"message": "Welcome to Retrieve Public API!"})
+
 def public_api(request):
     response_data = {
         "email": "olakunle.adebayo77@gmail.com",
@@ -11,3 +14,4 @@ def public_api(request):
     }
 
     return JsonResponse(response_data)
+
