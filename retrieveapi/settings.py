@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-5b2a5i8jocj0yff9fq2-1tyu35*#wg6*_qpi9zsp145d6&j)(h
 DEBUG = True
 
 ALLOWED_HOSTS = [
-    "https://retrieve-public-api.onrender.com",  # Add your Render domain
+    "retrieve-public-api.onrender.com",  # Add your Render domain
     "127.0.0.1",  # Local development
     "localhost"
 ]
